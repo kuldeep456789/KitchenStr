@@ -4,6 +4,13 @@ A modern front-end web application built with React and Vite. This application p
 
 ## Getting Started
 
+
+![image alt](https://github.com/kuldeep456789/KitchenStr/blob/0356b0125540974adc9c7beb399bb91d24ebbb7f/kitchenstr/image%20(4).png)
+
+#second phse
+
+![image alt](https://github.com/kuldeep456789/KitchenStr/blob/0356b0125540974adc9c7beb399bb91d24ebbb7f/kitchenstr/image%20(5).png)
+
 Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
