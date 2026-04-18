@@ -20,7 +20,7 @@ const ChatBot = ({ isOpen, onClose }) => {
         e.preventDefault();
         if (!input.trim()) return;
 
-        const apiKey = import.meta.env.VITE_LLM_API_KEY;
+        const apiKey = 'AIzaSyBl3KQxpP0np72Ol-QCyD_KSmi2ERROTXk';
         const userMsg = {
             id: Date.now(),
             text: input,
@@ -33,9 +33,6 @@ const ChatBot = ({ isOpen, onClose }) => {
         setIsTyping(true);
 
         try {
-            if (!apiKey || apiKey === 'your_api_key_here') {
-                throw new Error('API Key missing');
-            }
 
             const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
                 method: 'POST',
